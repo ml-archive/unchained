@@ -1,0 +1,155 @@
+{
+	"app.atomic.models.Store": [{
+		"business_unit": "Beerissimo",
+        "store_url": "http://beerissi.mo/",
+        "description": "Some fake beer store made up for testing",
+        "timezone_id": 1,
+        "business_model_id": 1
+	}, {
+		"business_unit": "NobleBrew",
+        "store_url": "http://noble.org/",
+        "description": "A noble calling for a higher purpose",
+        "timezone_id": 1,
+        "business_model_id": 1
+	}, {
+		"business_unit": "PurpleHaze",
+        "store_url": "http://purple.haze/",
+        "description": "Psychedelic beer for breakfast",
+        "timezone_id": 1,
+        "business_model_id": 1
+	}],
+	"app.atomic.models.Product": [{
+        "name": "Turbo 2000",
+        "sku": "TURBO2K",
+        "description": "The Turbo 2000 will get you there in one piece",
+        "units_in_pack": 1,
+        "volume_per_unit": 243,
+        "total_weight": 234,
+        "alcohol_content": 6.5,
+        "brand_id": 1,
+        "holding_company_id": 1,
+        "product_type_id": 1,
+        "unit_type_id": 1,
+        "flavor_category_id": 1
+	}, {
+        "name": "Turbo 3000",
+        "sku": "TURBO3K",
+        "description": "The Turbo 3000 will get you there in three pieces",
+        "units_in_pack": 1,
+        "volume_per_unit": 233,
+        "total_weight": 334,
+        "alcohol_content": 6.5,
+        "brand_id": 1,
+        "holding_company_id": 1,
+        "product_type_id": 1,
+        "unit_type_id": 1,
+        "flavor_category_id": 1
+	}, {
+        "name": "Grandissimo Turbo",
+        "sku": "GRANDTURBO",
+        "description": "This Turbo is cherry",
+        "units_in_pack": 1,
+        "volume_per_unit": 233,
+        "total_weight": 334,
+        "alcohol_content": 6.5,
+        "brand_id": 1,
+        "holding_company_id": 1,
+        "product_type_id": 1,
+        "unit_type_id": 1,
+        "flavor_category_id": 1
+	}],
+	"app.atomic.models.Order": [{
+        "external_order_reference": "AHKJDHJKS4123",
+        "external_customer_id": "12348484",
+        "currency": "USD",
+        "grand_total": 2344,
+        "tax": 143,
+        "shipping_charged": 435,
+        "store_id": 1,
+        "customer_id": 1,
+        "financial_status_id": 1,
+        "logistic_status_id": 1
+	}, {
+        "external_order_reference": "BKJ2324123",
+        "external_customer_id": "1212384",
+        "currency": "USD",
+        "grand_total": 2344,
+        "tax": 123,
+        "shipping_charged": 425,
+        "store_id": 1,
+        "customer_id": 2,
+        "financial_status_id": 2,
+        "logistic_status_id": 2
+	}, {
+        "external_order_reference": "BK22224123",
+        "external_customer_id": "1222384",
+        "currency": "USD",
+        "grand_total": 2244,
+        "tax": 122,
+        "shipping_charged": 225,
+        "store_id": 1,
+        "customer_id": 1,
+        "financial_status_id": 2,
+        "logistic_status_id": 2
+	}],
+	"app.atomic.models.OrderItem": [{
+        "product_id": 1,
+        "units": 23,
+        "unit_price_local": 123,
+        "wholesale_cost_local": 93,
+        "order_id": 1,
+        "external_order_item_reference": "123"
+	}, {
+        "product_id": 2,
+        "units": 223,
+        "unit_price_local": 123,
+        "wholesale_cost_local": 923,
+        "order_id": 1,
+        "external_order_item_reference": "223"
+	}, {
+        "product_id": 1,
+        "units": 23,
+        "unit_price_local": 1222,
+        "wholesale_cost_local": 92,
+        "order_id": 2,
+        "external_order_item_reference": "123"
+	}, {
+        "product_id": 2,
+        "units": 342,
+        "unit_price_local": 1223,
+        "wholesale_cost_local": 12,
+        "order_id": 2,
+        "external_order_item_reference": "223"
+	}],
+	"app.atomic.models.Customer": [{
+        "first_name": "Billy Ray",
+        "last_name": "Jones",
+        "address": "123 Styx River Road",
+        "email": "billyrae@hell.com",
+        "phone": "2122343666",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA",
+        "language": "Latin"
+	}, {
+        "first_name": "Billy Joe",
+        "last_name": "Jones",
+        "address": "123 Styx River Road",
+        "email": "vp@hell.com",
+        "phone": "2123343666",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA",
+        "language": "Latin"
+	}, {
+        "first_name": "Stanley Ray",
+        "last_name": "Jones",
+        "address": "123 Styx River Road",
+        "email": "stan@hell.com",
+        "phone": "2122323666",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA",
+        "language": "Latin"
+	}]
+}
